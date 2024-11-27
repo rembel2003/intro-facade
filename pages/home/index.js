@@ -7,7 +7,8 @@ import ServiceSection2 from '../../components/ServiceSection2/ServiceSection2';
 import ProjectSection from '../../components/ProjectSection/ProjectSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-3.svg'
+import Logo from '/public/images/logo-3.PNG'
+import HistorySection from "../../components/HistorySection/HistorySection";
 
 
 const HomePage = () => {
@@ -18,7 +19,7 @@ const HomePage = () => {
             <HeroSlider hclass={'wpo-hero-slider wpo-hero-slider-s2'} />
             <About2 hclass={'wpo-about-section-s2 section-padding'} />
             <ServiceSection2 hclass={"wpo-service-section-s2 section-padding"} />
-            <ProjectSection hclass={'wpo-project-section'} />
+            <HistorySection hclass={'wpo-history-section'}/>
             <Footer />
             <Scrollbar />
         </Fragment>

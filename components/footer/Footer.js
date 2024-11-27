@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import logo from '/public/images/logo-2.svg'
+import logo from '/public/images/logo-3.PNG'
 import Services from '../../api/Services';
 import Image from 'next/image';
 
@@ -27,8 +27,6 @@ const Footer = (props) => {
                                 <div className="logo widget-title">
                                     <Image src={logo} alt="blog" />
                                 </div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt iure blanditiis
-                                    labore tempora inventore laborum error molestias,</p>
                                 <div className="social-widget">
                                     <ul>
                                         <li><Link onClick={ClickHandler} href="/"><i className="ti-facebook"></i></Link></li>
@@ -93,7 +91,7 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            <p className="copyright"> Copyright &copy; 2024 sailo by <Link onClick={ClickHandler} href="/">wpOceans</Link>. All
+                            <p className="copyright"> Copyright &copy; 2024  by <Link onClick={ClickHandler} href="/">Iurii Burlacov</Link>. All
                                 Rights Reserved.</p>
                         </div>
                     </div>

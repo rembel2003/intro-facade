@@ -8,7 +8,7 @@ import BlogSection from '../../components/BlogSection/BlogSection';
 import PricingSection from '../../components/PricingSection/PricingSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-3.svg'
+import Logo from '/public/images/logo-3.PNG'
 
 
 const AboutPage = () => {
@@ -19,8 +19,6 @@ const AboutPage = () => {
             <PageTitle pageTitle={'About Us'} pagesub={'About'} />
             <About hclass={'wpo-about-section section-padding'} />
             <ServiceSection hclass={"wpo-service-section section-padding"} />
-            <PricingSection pClass={"wpo-pricing-section section-padding pt-0"} />
-            <BlogSection tClass={'wpo-blog-section section-padding'} />
             <Footer />
             <Scrollbar />
 

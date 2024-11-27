@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
+import Image1 from "/public/images/ab-1.jpg"
+import Image2 from "/public/images/ab-2.jpg"
+import CeoImage from "/public/images/signeture.png"
 
 const About = (props) => {
     const [aboutData, setAboutData] = useState({
@@ -43,26 +46,20 @@ const About = (props) => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-12">
                         <div className="about-left-image">
-                            <img src={aboutData.images.image1} alt="" />
+                            <Image src={Image1} alt="" />
                             <div className="ab-2">
-                                <img src={aboutData.images.image2} alt="" />
+                                <Image src={Image2} alt="" />
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-6 col-12">
                         <div className="content">
-                            <h2>{aboutData.title}</h2>
-                            <h3>{aboutData.subtitle}</h3>
-                            {aboutData.paragraphs.map((paragraph, index) => (
-                                <p key={index}>{paragraph}</p>
-                            ))}
+                            <h2>About Company</h2>
+                            <h3>Мы создаем инновационные решения из пенопласта</h3>
+                            <p>Наша фабрика — один из ведущих производителей изделий из пенопласта в регионе. Уже более 10 лет мы создаем продукцию, которая находит применение в строительстве, упаковке, декоре и других сферах. Наша цель — предоставить клиентам качественные, экологически безопасные и долговечные решения.</p>
                             <div className="ceo-content">
-                                <div className="text">
-                                    <h2>{aboutData.ceoName}</h2>
-                                    <span>{aboutData.ceoTitle}</span>
-                                </div>
                                 <div className="image">
-                                    <img src={aboutData.images.ceoImage} alt="" />
+                                    <Image src={CeoImage} alt="" />
                                 </div>
                             </div>
                         </div>

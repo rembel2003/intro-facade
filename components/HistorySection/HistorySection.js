@@ -17,8 +17,9 @@ const HistorySection = (props) => {
                         <div className="content">
                             <span>Our History</span>
                             <h2>Company history, present and the future</h2>
-                            <p>Tellus sed volutpat massa turpis justo blandit blandit nec. Viverra ante in urna sit
-                                posuere nunc ut. Tempus montes ut magna nisl quis turpis sed etiam.</p>
+                            <p>14 лет назад, когда мы предложили клиентам декор фасада в 5 раз дешевле по цене и быстрее в производстве, чем украшения из гипса и полиуретана, они сомневались в том, что это возможно.
+
+                                Мы одни из первых начали продвижение на рынок новой строительной технологии декора фасада элементами из пенопласта, применяемых в Канаде и США. Запустив производственную линию по выпуску изделий из пенополистирола, мы выполняем любые дизайнерские решения, которые обходятся клиенту значительно дешевле по цене аналогов из других материалов, долговечнее в эксплуатации и быстрее в производстве.</p>
                             <div className="btn_history">
                                 <Link onClick={ClickHandler} href="/about">Discover More</Link>
                             </div>

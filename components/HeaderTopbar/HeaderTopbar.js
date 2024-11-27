@@ -9,9 +9,9 @@ const HeaderTopbar = (props) => {
                     <div className="col col-lg-7 col-md-8 col-sm-12 col-12">
                         <div className="contact-intro">
                             <ul>
-                                <li><i className="fi flaticon-email"></i>Sailo@gmail.com</li>
-                                <li><i className="fi flaticon-phone-call"></i> +888 (123) 869523</li>
-                                <li><i className="fi ti-location-pin"></i> New York – 1075 Firs Avenue</li>
+                                <li><i className="fi flaticon-email"></i>IntroFacade@gmail.com</li>
+                                <li><i className="fi flaticon-phone-call"></i> +373-792-997-77</li>
+                                <li><i className="fi ti-location-pin"></i> Chișinău Calea Orheiului, nr. 125/1</li>
                             </ul>
                         </div>
                     </div>

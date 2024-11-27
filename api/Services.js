@@ -1,7 +1,7 @@
 // images
-import img1 from '/public/images/service/1.jpg'
-import img2 from '/public/images/service/2.jpg'
-import img3 from '/public/images/service/3.jpg'
+import img1 from '/public/images/service/1.png'
+import img2 from '/public/images/service/2.png'
+import img3 from '/public/images/service/3.png'
 import img4 from '/public/images/service/4.jpg'
 
 
@@ -24,34 +24,34 @@ const Services = [
         image: img1,
         icon: icon1,
         simage: simg1,
-        title: 'Power & Energy Sectors',
+        title: 'Утеплитель для труб из пенопласта',
         description: 'Sagittis fringilla a scelerisque sitro consetetur nunc. Urna est eget pellentesque.',
-        slug: 'Power-&-Energy-Sectors'
+        slug: 'Утеплитель для труб из пенопласта'
     },
     {
-        id: 4,
+        id: 2,
         image: img2,
         icon: icon2,
         simage: simg2,
-        title: 'Architectures & Design',
+        title: 'Упаковка из пенопласта',
         description: 'Sagittis fringilla a scelerisque sitro consetetur nunc. Urna est eget pellentesque.',
-        slug: 'Architectures-&-Design'
+        slug: 'Упаковка из пенопласта'
     },
     {
         id: 3,
         image: img3,
         icon: icon3,
         simage: simg3,
-        title: 'Explore Tiling & Painiting',
+        title: 'Подложка под водяной теплый пол',
         description: 'Sagittis fringilla a scelerisque sitro consetetur nunc. Urna est eget pellentesque.',
-        slug: 'Explore-Tiling-&-Painiting'
+        slug: 'Подложка под водяной теплый пол'
     },
     {
         id: 4,
         image: img4,
         icon: icon4,
         simage: simg4,
-        title: 'Petroleum Production',
+        title: 'Упаковка из пенопласта',
         description: 'Sagittis fringilla a scelerisque sitro consetetur nunc. Urna est eget pellentesque.',
         slug: 'Petroleum-Production'
     },

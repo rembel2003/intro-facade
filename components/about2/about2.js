@@ -27,23 +27,22 @@ const About2 = (props) => {
                     <div className="col-lg-6 col-12">
                         <div className="content">
                             <div className="text">
-                                <h2>About Company</h2>
-                                <h3>We Are Solving All of Your Business Problem</h3>
+                                <h2>О компании</h2>
+                                <h3>Качество по лучшим ценам</h3>
                                 <p>
-                                    Our industry's business policy encompasses the strategies, guidelines, and practices
-                                    that technology companies use to achieve their goals and objectives.
+                                    На рынке производства продукции из пенопласта компания «INTRO FACADE» является экспертом с 2014 года проверенной репутацией. Для каждого клиента, который стремится внести разнообразие в свою жизнь, используя для дома, офисного помещения, торговой площадки, сада высокоэстетичные изделия из пенополистирола, ведущая компания «INTRO_FACADE» готова стать надежным партнером и другом.
                                 </p>
                             </div>
                             <div className="list">
                                 <ul>
-                                    <li><i className="ti-check"></i> <span>Raw Materials</span></li>
-                                    <li><i className="ti-check"></i> <span>Quality Control</span></li>
-                                    <li><i className="ti-check"></i> <span>Finished Goods</span></li>
+                                    <li><i className="ti-check"></i> <span>Гарантия долговечности</span></li>
+                                    <li><i className="ti-check"></i> <span>Полное соответствие задаче</span></li>
+                                    <li><i className="ti-check"></i> <span>Выполнение точно в срок</span></li>
                                 </ul>
                                 <ul>
-                                    <li><i className="ti-check"></i> <span>Raw Materials</span></li>
-                                    <li><i className="ti-check"></i> <span>Quality Control</span></li>
-                                    <li><i className="ti-check"></i> <span>Finished Goods</span></li>
+                                    <li><i className="ti-check"></i> <span>Удобные условия партнерам</span></li>
+                                    <li><i className="ti-check"></i> <span>Широкий диапазон выбора</span></li>
+                                    <li><i className="ti-check"></i> <span>Консультации</span></li>
                                 </ul>
 
                             </div>

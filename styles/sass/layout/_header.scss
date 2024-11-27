@@ -1385,7 +1385,8 @@
 
 	.navbar-header .navbar-brand {
 		img {
-			max-width: 170px;
+			max-width: 120px;
+			max-height: 120px;
 		}
 	}
 
@@ -1431,7 +1432,8 @@
 @media(max-width: 440px) {
 	.wpo-site-header .navbar-header .navbar-brand {
 		img {
-			max-width: 170px;
+			max-width: 70px;
+			max-height: 70px;
 		}
 	}
 }
@@ -1439,7 +1441,8 @@
 @media(max-width: 370px) {
 	.wpo-site-header .navbar-header .navbar-brand {
 		img {
-			max-width: 140px;
+			max-width: 70px;
+			max-height: 70px;
 		}
 	}
 }

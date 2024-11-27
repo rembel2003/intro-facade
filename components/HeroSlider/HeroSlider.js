@@ -25,12 +25,10 @@ const HeroSlider = (props) => {
                         <div className="container-fluid">
                             <div className="slide-content">
                                 <div className="slide-title">
-                                    <h2>We Build Your Dream</h2>
+                                    <h2>Производство из пенопласта</h2>
                                 </div>
                                 <div className="slide-text">
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt illum
-                                        cupiditate rem at earum voluptatem tempore quae pariatur sed inventore error
-                                        ducimus,</p>
+                                    <p>90% заказов отправляются в тот же день</p>
                                 </div>
                                 <div className="slide-btns">
                                     <Link href="/about" className="theme-btn">About Us</Link>
@@ -44,12 +42,10 @@ const HeroSlider = (props) => {
                         <div className="container-fluid">
                             <div className="slide-content">
                                 <div className="slide-title">
-                                    <h2>we are industry factory solution</h2>
+                                    <h2>Изготовление высококачественных изделий</h2>
                                 </div>
                                 <div className="slide-text">
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt illum
-                                        cupiditate rem at earum voluptatem tempore quae pariatur sed inventore error
-                                        ducimus,</p>
+                                    <p>Пунктуальность и надежность. Вы можете быть уверены, что изготовление и доставка будут исполнены в заранее оговоренное время.</p>
                                 </div>
                                 <div className="slide-btns">
                                     <Link href="/about" className="theme-btn">About Us</Link>
@@ -63,12 +59,10 @@ const HeroSlider = (props) => {
                         <div className="container-fluid">
                             <div className="slide-content">
                                 <div className="slide-title">
-                                    <h2>We Are The Best In The Industry</h2>
+                                    <h2>Мы создаем продукты которые упрощают жизнь</h2>
                                 </div>
                                 <div className="slide-text">
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt illum
-                                        cupiditate rem at earum voluptatem tempore quae pariatur sed inventore error
-                                        ducimus,</p>
+                                    <p>Воплотим в форму любую вашу фантазию!</p>
                                 </div>
                                 <div className="slide-btns">
                                     <Link href="/about" className="theme-btn">About Us</Link>
