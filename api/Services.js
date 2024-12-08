@@ -2,14 +2,16 @@
 import img1 from '/public/images/service/1.png'
 import img2 from '/public/images/service/2.png'
 import img3 from '/public/images/service/3.png'
-import img4 from '/public/images/service/4.jpg'
+import img4 from '/public/images/service-single/img-4.jpg'
+import img5 from '/public/images/service-single/img5.jpg'
 
 
 /* Single image */
 import simg1 from '/public/images/service-single/img-1.jpg'
 import simg2 from '/public/images/service-single/img-2.jpg'
 import simg3 from '/public/images/service-single/img-3.jpg'
-import simg4 from '/public/images/service-single/img-4.jpg'
+import simg4 from '/public/images/service-single/simg-4.jpg'
+import simg5 from '/public/images/service-single/simg5.jpeg'
 
 /* icon image */
 import icon1 from '/public/images/service/icon-1.svg'
@@ -25,7 +27,8 @@ const Services = [
         icon: icon1,
         simage: simg1,
         title: 'Утеплитель для труб из пенопласта',
-        description: 'Sagittis fringilla a scelerisque sitro consetetur nunc. Urna est eget pellentesque.',
+        description: 'Эффективное решение для утепления трубопроводов, обеспечивающее теплоизоляцию и снижение потерь тепла.',
+        description_big: 'Надежное решение для теплоизоляции трубопроводов. Легкий, экологически безопасный материал, предотвращающий замерзание воды в трубах зимой и минимизирующий теплопотери в отопительных системах. Идеален для использования в жилых и промышленных объектах, защищая коммуникации и увеличивая их срок службы.',
         slug: 'Утеплитель для труб из пенопласта'
     },
     {
@@ -34,7 +37,8 @@ const Services = [
         icon: icon2,
         simage: simg2,
         title: 'Упаковка из пенопласта',
-        description: 'Sagittis fringilla a scelerisque sitro consetetur nunc. Urna est eget pellentesque.',
+        description: 'Прочная и легкая упаковка для надежной защиты товаров при транспортировке и хранении.',
+        description_big: 'Современное решение для безопасной транспортировки и хранения товаров. Пенопластовая упаковка обладает высокой прочностью и легкостью, что защищает изделия от ударов, вибраций и повреждений. Идеально подходит для электроники, мебели, стекла и других хрупких предметов. Простота в переработке делает её экологически оправданным выбором.',
         slug: 'Упаковка из пенопласта'
     },
     {
@@ -43,7 +47,8 @@ const Services = [
         icon: icon3,
         simage: simg3,
         title: 'Подложка под водяной теплый пол',
-        description: 'Sagittis fringilla a scelerisque sitro consetetur nunc. Urna est eget pellentesque.',
+        description: 'Идеальный материал для монтажа систем теплого пола, обеспечивающий равномерное распределение тепла.',
+        description_big: 'Неотъемлемый элемент современных систем теплого пола. Подложка из пенопласта обеспечивает эффективное удержание тепла, равномерное распределение температуры по всей поверхности и снижение теплопотерь. Легкая в монтаже и устойчивая к влаге, она создаёт комфорт и уют в вашем доме.',
         slug: 'Подложка под водяной теплый пол'
     },
     {
@@ -51,19 +56,21 @@ const Services = [
         image: img4,
         icon: icon4,
         simage: simg4,
-        title: 'Упаковка из пенопласта',
-        description: 'Sagittis fringilla a scelerisque sitro consetetur nunc. Urna est eget pellentesque.',
-        slug: 'Petroleum-Production'
+        title: 'Изделия из пенопласта',
+        description: 'Разнообразные изделия из пенопласта для декоративных и строительных целей с высокой износостойкостью.',
+        description_big: 'Широкий выбор изделий из пенопласта для декоративного и строительного применения. Легкость, высокая прочность и устойчивость к внешним воздействиям делают их идеальными для различных задач: от создания упаковки до изготовления сложных архитектурных элементов. Возможность индивидуального производства под заказ.',
+        slug: 'Изделия из пенопласта'
     },
     {
         id: 5,
-        image: img2,
-        icon: icon2,
-        simage: simg2,
-        title: 'Petroleum Production',
-        description: 'Sagittis fringilla a scelerisque sitro consetetur nunc. Urna est eget pellentesque.',
-        slug: 'Petroleum-Production-2'
+        image: img5,
+        icon: icon1,
+        simage: simg5,
+        title: 'Фасадный декор',
+        description: 'Элегантное и практичное решение для оформления фасадов зданий.',
+        description_big: 'Стильное и функциональное решение для оформления фасадов зданий. Легкие и прочные элементы из пенопласта, такие как карнизы, молдинги и колонны, придают зданию индивидуальный характер и повышают его эстетическую ценность. Устойчив к атмосферным воздействиям и легко монтируется, обеспечивая долговечность и роскошный внешний вид.',
+        slug: 'Фасадный декор'
     },
-
 ];
+
 export default Services;

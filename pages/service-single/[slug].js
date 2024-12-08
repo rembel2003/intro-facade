@@ -37,66 +37,38 @@ const ServiceSinglePage = (props) => {
                                     <div className="wpo-service-single-title">
                                         <h2>{serviceDetails?.title}</h2>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus dis posuere amet
-                                        tincidunt commodo, velit. Ipsum, hac nibh fermentum nisi, platea condimentum cursus
-                                        velit dui. Massa volutpat odio facilisis purus sit elementum. Non, sed velit dictum
-                                        quam. Id risus pharetra est, at rhoncus, nec ullamcorper tincidunt. Id aliquet duis
-                                        sollicitudin diam, elit sit. Et nisi in libero facilisis sed est. Elit curabitur
-                                        amet risus bibendum. Posuere et eget orci, tempor enim.</p>
-                                    <p>Hac nibh fermentum nisi, platea condimentum cursus velit dui. Massa volutpat odio
-                                        facilisis purus sit elementum. Non, sed velit dictum quam. Id risus pharetra est, at
-                                        rhoncus, nec ullamcorper tincidunt. Id aliquet duis sollicitudin diam, elit sit.</p>
-                                    <div className="row mt-4">
-                                        <div className="col-md-6 col-sm-6 col-12">
-                                            <div className="wpo-p-details-img">
-                                                <Image src={simg1} alt="" />
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6 col-sm-6 col-12">
-                                            <div className="wpo-p-details-img">
-                                                <Image src={simg2} alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p>{serviceDetails?.description_big}</p>
                                 </div>
                                 <div className="wpo-service-single-item list-widget">
-                                    <div className="wpo-service-single-title">
-                                        <h3>Our Capabilities</h3>
+                                        <div className="wpo-service-single-title">
+                                            <h3>Наши возможности</h3>
+                                        </div>
+                                        <p>Наш завод специализируется на производстве высококачественных изделий из пенопласта для различных сфер применения. Благодаря современному оборудованию и многолетнему опыту, мы предлагаем продукцию, которая сочетает в себе прочность, лёгкость и надёжность.</p>
+                                        <ul>
+                                            <li>Производство утеплителей для труб и систем теплоизоляции.</li>
+                                            <li>Изготовление фасадного декора для архитектурного оформления зданий.</li>
+                                            <li>Производство упаковочных материалов для безопасной транспортировки.</li>
+                                            <li>Создание подложек для систем водяного теплого пола.</li>
+                                            <li>Разработка индивидуальных решений из пенопласта под заказ.</li>
+                                        </ul>
                                     </div>
-                                    <p>Massa volutpat odio facilisis purus sit elementum. Non, sed velit dictum quam. Id
-                                        risus pharetra est, at rhoncus, nec ullamcorper tincidunt. Id aliquet duis
-                                        sollicitudin diam.</p>
-                                    <ul>
-                                        <li>Non saed velit dictum quam risus pharetra esta.</li>
-                                        <li>Id risus pharetra est, at rhoncus, nec ullamcorper tincidunt.</li>
-                                        <li>Hac nibh fermentum nisi, platea condimentum cursus.</li>
-                                        <li>Massa volutpat odio facilisis purus sit elementum.</li>
-                                        <li>Elit curabitur amet risus bibendum.</li>
-                                    </ul>
-                                </div>
-                                <div className="wpo-service-single-item">
-                                    <div className="wpo-service-single-title">
-                                        <h3>Our approach</h3>
+                                    <div className="wpo-service-single-item">
+                                        <div className="wpo-service-single-title">
+                                            <h3>Наш подход</h3>
+                                        </div>
+                                        <p>Мы стремимся к тому, чтобы каждый этап нашего производства соответствовал самым высоким стандартам качества. Наш подход основан на инновационных технологиях, внимании к деталям и индивидуальном подходе к каждому заказчику. Мы понимаем потребности наших клиентов и предлагаем решения, которые гарантируют долговечность, эффективность и экологическую безопасность наших изделий из пенопласта.</p>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat suspendisse aenean
-                                        tellus augue morbi risus. Sit morbi vitae morbi sed urna sed purus. Orci facilisi
-                                        eros sed pellentesque. Risus id sed tortor sed scelerisque. Vestibulum elit
-                                        elementum, magna id viverra non, velit. Pretium, eros, porttitor fusce auctor vitae
-                                        id. Phasellus scelerisque nibh eleifend vel enim mauris purus. Rutrum vel sem
-                                        adipiscing nisi vulputate molestie scelerisque molestie ultrices. Eu, fusce
-                                        vulputate diam interdum morbi ac a.</p>
-                                </div>
-                                <div className="wpo-service-single-item list-widget">
-                                    <div className="wpo-service-single-title">
-                                        <h3>Our Work Process</h3>
+                                    <div className="wpo-service-single-item list-widget">
+                                        <div className="wpo-service-single-title">
+                                            <h3>Наш процесс работы</h3>
+                                        </div>
+                                        <ul>
+                                            <li>Тщательное проектирование и разработка изделий в соответствии с запросами клиентов.</li>
+                                            <li>Использование современного оборудования для точного и качественного производства.</li>
+                                            <li>Контроль качества на каждом этапе производства для соответствия высоким стандартам.</li>
+                                            <li>Оперативная доставка готовой продукции с соблюдением сроков и условий.</li>
+                                        </ul>
                                     </div>
-                                    <ul>
-                                        <li>Non saed velit dictum quam risus pharetra esta.</li>
-                                        <li>Id risus pharetra est, at rhoncus, nec ullamcorper tincidunt.</li>
-                                        <li>Hac nibh fermentum nisi, platea condimentum cursus.</li>
-                                        <li>Massa volutpat odio facilisis purus sit elementum.</li>
-                                    </ul>
-                                </div>
                                 <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-title">
                                         <h3>Related Service</h3>

@@ -47,17 +47,6 @@ const ServiceSidebar = (props) => {
                     </form>
                     <span>By signing up you agree to our <Link href="/contact">Privecy Policy</Link></span>
                 </div>
-                <div className="wpo-instagram-widget widget">
-                    <h3>Instagram Shot</h3>
-                    <ul>
-                        <li><Image src={ins1} alt="instragram" /></li>
-                        <li><Image src={ins2} alt="instragram" /></li>
-                        <li><Image src={ins3} alt="instragram" /></li>
-                        <li><Image src={ins4} alt="instragram" /></li>
-                        <li><Image src={ins5} alt="instragram" /></li>
-                        <li><Image src={ins6} alt="instragram" /></li>
-                    </ul>
-                </div>
             </div>
         </div>
 
