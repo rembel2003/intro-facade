@@ -80,7 +80,7 @@ const TeamSinglePage = (props) => {
                                         </ul>
                                     </div>
 
-                                    <div className="wpo-contact-area ex-wiget">
+                                    <div className="wpo-contact-area ex-wiget" >
                                         <h2>Contact Me</h2>
                                         <div className="quote-form">
                                             <Contact />

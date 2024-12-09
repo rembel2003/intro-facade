@@ -39,30 +39,37 @@ const Hero3 = () => {
         <section className="static-hero-s3">
             <div className="container">
                 <div className="content">
-                    <h2>Welcome to Sailo</h2>
-                    <h3>We will provide the best Industrial service</h3>
-                    <p>Dapibus aliquet lacus sem egestas netus vestibulum sit turpis scelerisque pharetra pelque diam
-                        pharetra curabitur.</p>
-                    <div className="hero-btn">
-                        <Link onClick={ClickHandler} href="/about" className="theme-btn">Discover More</Link>
-                        <VideoModal />
-                    </div>
+                    <h2>Отделка фасадов из пенопласта</h2>
+                    <h3>Для утепленмя и декорирования домов</h3>
+                    <p>Если вам нужно одновременно украсить и утеплить фасад дома,то для этой задачи отлично подойдут фасадные панели</p>
                 </div>
             </div>
             <Slider {...settings} className="hero-slider">
                 <div className="item">
-                    <div className="image">
-                        <Image src={Slider1} alt="" />
+                    <div className="image" >
+                        <Image src={Slider1} alt="" style={{
+                            width: "800px", 
+                            height: "800px", 
+                            objectFit: "cover" // Пример дополнительного свойства, если нужно.
+                        }}/>
                     </div>
                 </div>
                 <div className="item">
                     <div className="image">
-                        <Image src={Slider2} alt="" />
+                        <Image src={Slider2} alt="" style={{
+                            width: "800px", 
+                            height: "800px", 
+                            objectFit: "cover" // Пример дополнительного свойства, если нужно.
+                        }}/>
                     </div>
                 </div>
                 <div className="item">
                     <div className="image">
-                        <Image src={Slider3} alt="" />
+                        <Image src={Slider3} alt="" style={{
+                            width: "800px", 
+                            height: "800px", 
+                            objectFit: "cover" // Пример дополнительного свойства, если нужно.
+                        }}/>
                     </div>
                 </div>
             </Slider>

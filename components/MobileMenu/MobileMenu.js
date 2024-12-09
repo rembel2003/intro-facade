@@ -9,39 +9,6 @@ const menus = [
         id: 1,
         title: 'Home',
         link: '/home',
-        submenu: [
-            {
-                id: 11,
-                title: 'Home style 1',
-                link: '/home'
-            },
-            {
-                id: 12,
-                title: 'Home style 2',
-                link: '/home-2'
-            },
-            {
-                id: 13,
-                title: 'Home style 3',
-                link: '/home-3'
-            },
-            {
-                id: 14,
-                title: 'Home style 4',
-                link: '/home-4'
-            },
-            {
-                id: 14,
-                title: 'Home style 5',
-                link: '/home-5'
-            },
-            {
-                id: 14,
-                title: 'Home style 6',
-                link: '/home'
-            },
-          
-        ]
     },
     {
         id: 88,
@@ -50,36 +17,32 @@ const menus = [
     },
     {
         id: 7,
-        title: 'Service',
+        title: 'Продукция',
         link: '#',
         submenu: [
             {
                 id: 71,
-                title: 'Service Style 1',
+                title: 'Продукция из пенопласта',
                 link: '/service',
             },
             {
                 id: 72,
-                title: 'Service Style 2',
+                title: 'Отделка фасадов из пенопласта',
                 link: '/service-s2',
             },
             {
                 id: 73,
-                title: 'Service Style 3',
+                title: 'Интернет - магазин',
                 link: '/service-s3',
             },
-            {
-                id: 74,
-                title: 'Service Single',
-                link: '/service-single/Power-&-Energy-Sectors',
-            },
+            
            
             
         ]
     },
     {
         id: 44,
-        title: 'Project',
+        title: 'Монтаж',
         link: '/',
         submenu: [
             {
@@ -96,7 +59,7 @@ const menus = [
     },
     {
         id: 3,
-        title: 'Pages',
+        title: 'Информация',
         link: '/',
         submenu: [
             {

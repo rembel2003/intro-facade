@@ -47,23 +47,22 @@ const Header = (props) => {
                                         </li>
                                         <li><Link onClick={ClickHandler} href="/about">About</Link></li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/service">Service</Link>
+                                            <Link onClick={ClickHandler} href="/service">Продукция</Link>
                                             <ul className="sub-menu">
-                                                <li><Link onClick={ClickHandler} href="/service">Service Style 1</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/service-s2">Service Style 2</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/service-s3">Service Style 3</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/service-single/Power-&-Energy-Sectors">Service Single</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/service">Продукция из пенопласта</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/service-s2">Отделка фасадов из пенопласта</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/service-s3">Интернет - магазин</Link></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/project">Project</Link>
+                                            <Link onClick={ClickHandler} href="/project">Монтаж</Link>
                                             <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} href="/project">Project </Link></li>
                                                 <li><Link onClick={ClickHandler} href="/project-single/Custom-Fabrication">Project Single</Link></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="#">Pages</Link>
+                                            <Link onClick={ClickHandler} href="#">Информация</Link>
                                             <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} href="/team">Team</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/team-single/Henry-Bannet">Team Single</Link></li>
