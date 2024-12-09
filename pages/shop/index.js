@@ -24,7 +24,7 @@ const ShopPage = ({ addToCart }) => {
         <Fragment>
             <HeaderTopbar />
             <Navbar hclass={'wpo-site-header wpo-site-header-s3'} Logo={Logo} />
-            <PageTitle pageTitle={'Shop'} pagesub={'Shop'} />
+            <PageTitle pageTitle={'Интернет-Магазин'} pagesub={'Shop'} />
             <section className="wpo-shop-page section-padding">
                 <div className="container">
                     <div className="row">

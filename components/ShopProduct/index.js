@@ -16,31 +16,14 @@ const ShopProduct = ({ products, addToCartProduct }) => {
                             {products.length > 0 &&
                                 products.slice(0, 12).map((product, pitem) => (
                                     <div className="grid" key={pitem}>
-                                        <div className="img-holder">
-                                            <img src={product.proImg} alt="" />
+                                        <div className="img-holder" >
+                                            <img src={product.proImg} alt="" style={{height: "395px"}}/>
                                         </div>
                                         <div className="details">
-                                            <h3><Link onClick={ClickHandler} href={'/product-single/[slug]'} as={`/product-single/${product.slug}`}>{product.title}</Link></h3>
+                                            <h3><Link onClick={ClickHandler} href={'/contact'}>{product.title}</Link></h3>
                                         </div>
                                     </div>
                                 ))}
-                        </div>
-                        <div className="pagination-wrapper pagination-wrapper-center">
-                            <ul className="pg-pagination">
-                                <li>
-                                    <Link href="/shop" aria-label="Previous">
-                                        <i className="ti-angle-left"></i>
-                                    </Link>
-                                </li>
-                                <li className="active"><Link href="/shop">1</Link></li>
-                                <li><Link href="/shop">2</Link></li>
-                                <li><Link href="/shop">3</Link></li>
-                                <li>
-                                    <Link href="/shop" aria-label="Next">
-                                        <i className="ti-angle-right"></i>
-                                    </Link>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </div>

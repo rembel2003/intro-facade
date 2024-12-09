@@ -910,11 +910,13 @@ img {
 }
 .blog-sidebar .about-widget .img-holder {
   margin-bottom: 25px;
+  height: 395px;
 }
 .blog-sidebar .about-widget .img-holder img {
   border-radius: 50%;
   width: 100%;
   max-width: 200px;
+  
 }
 .blog-sidebar .about-widget ul {
   list-style: none;
@@ -1014,9 +1016,11 @@ img {
 .blog-sidebar .recent-post-widget .post .img-holder {
   width: 90px;
   float: left;
+
 }
 .blog-sidebar .recent-post-widget .post .img-holder img {
   border-radius: 6px;
+  
 }
 .blog-sidebar .recent-post-widget .post .details {
   width: calc(100% - 90px);

@@ -31,29 +31,12 @@ const Product = ({ item, addToCart }) => {
             </div>
             <span>(25 customer reviews)</span>
           </div>
-          <div className="price">
-            <span className="current">${item.price}</span>
-            <span className="old">${item.delPrice}</span>
-          </div>
           <p>There are many variations of passages of Lorem Ipsum and available, but the majority have suffered alteration in somey form.</p>
           <ul>
             <li>Going through the cites of the word in classNameical.</li>
             <li>There are many variations of passages.</li>
             <li>Making it look like readable and spoken English.</li>
           </ul>
-          <div className="product-option">
-            <div className="product-row">
-              <button className="theme-btn"
-                onClick={() => addToCart(item)}>Add
-                to cart</button>
-              <div>
-              </div>
-            </div>
-          </div>
-          <div className="tg-btm">
-            <p><span>Categories:</span> Book</p>
-            <p><span>Tags:</span>Education, Lesson, Lawyer</p>
-          </div>
         </div>
 
       </div>
