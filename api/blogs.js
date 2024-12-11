@@ -1,11 +1,9 @@
 // images
-import blogImg1 from "/public/images/blog/img-1.jpg";
+import blogImg1 from "/public/images/blog/img-1.png";
 import blogImg2 from "/public/images/blog/img-2.jpg";
-import blogImg3 from "/public/images/blog/img-3.jpg";
+import blogImg3 from "/public/images/blog/img-3.png";
 
-import blogSingleImg1 from "/public/images/blog-details/1.jpg";
-import blogSingleImg2 from "/public/images/blog-details/2.jpg";
-import blogSingleImg3 from "/public/images/blog-details/3.jpg";
+
 
 
 
@@ -13,52 +11,50 @@ import blogSingleImg3 from "/public/images/blog-details/3.jpg";
 const blogs = [
     {
         id: '1',
-        title: 'Why Industry Are A Juicy Target For Cyberattack.',
-        title2: 'Industrial Profits Grow Faster in First Eight Months.',
+        title: 'Комплекты Фасадных декораций со скидкой 5%',
+        title2: 'Срок действия: Бессрочно',
         subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack',
+        slug:'Promotion',
         screens: blogImg1,
         link: 'READ MORE',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis, libero,',
-        author: 'Manik Doe',
+        description: 'Закажи комплект фасадных декораций из нашего каталога и получи скидку 5% на весь заказ',
         create_at: '01-05-2024',
-        blogSingleImg: blogSingleImg1,
-        comment: '35',
+        blogSingleImg: blogImg1,
         day: '28',
-        month: 'MAR',
+        month: 'NOVEMBER',
         blClass: 'format-standard-image',
         animation: '1200',
     },
     {
         id: '2',
-        title: 'Exploring The Wild Side in an Industrial Jungle.',
-        title2: 'Industrial Profits Grow Faster.',
+        title: 'Приведи друга и получи скидку 3%',
+        title2: 'Срок действия: Бессрочно',
         subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack2',
+        slug: 'Promotion1',
         screens: blogImg2,
         link: 'READ MORE',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis, libero,',
+        description: 'Оформи отдельные зыказы вместе с другом,родственником или соседом и получи скидку 3% на свой заказ.Не обязательно заказывать один и тот же товар',
         author: 'Linda Johns',
         create_at: '01-05-2024',
-        blogSingleImg: blogSingleImg2,
+        blogSingleImg: blogImg2,
         comment: '35',
         day: '28',
-        month: 'MAR',
+        month: 'December',
         blClass: 'format-standard-image',
         animation: '1200',
     },
     {
         id: '3',
-        title: 'EIndustrial Profits Grow Faster.',
-        title2: ' Why Industry Are A Juicy Target For Cyberattack.',
+        title: 'Распродажа скадских остатков',
+        title2: 'Срок действия: Бессрочно',
         subtitle: 'Manik Doe',
-        slug: 'Why-Industry-Are-A-Juicy-Target-For-Cyberattack3',
+        slug: 'Promotion2',
         screens: blogImg3,
         link: 'READ MORE',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis, libero,',
+        description: 'Распродаем все остатки',
         author: 'Manik Doe',
         create_at: '01-05-2024',
-        blogSingleImg: blogSingleImg3,
+        blogSingleImg: blogImg3,
         comment: '35',
         day: '28',
         month: 'MAR',

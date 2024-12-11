@@ -13,7 +13,7 @@ const BlogPage =() => {
         <Fragment>
             <HeaderTopbar />
             <Navbar hclass={'wpo-site-header wpo-site-header-s3'} Logo={logo} />
-            <PageTitle pageTitle={'Latest News'} pagesub={'Blog'}/> 
+            <PageTitle pageTitle={'Акции'} pagesub={'Blog'}/> 
             <BlogList/>
             <Footer/>
             <Scrollbar/>
