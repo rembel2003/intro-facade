@@ -5,6 +5,10 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Logo from '/public/images/logo-3.svg'
+import Testimonial from '../../components/Testimonial/Testimonial'
+import Testimonial2 from '../../components/Testimonial2/Testimonial2'
+
+
 
 
 const ProjectPage = () => {
@@ -13,6 +17,7 @@ const ProjectPage = () => {
             <HeaderTopbar />
             <Navbar hclass={'wpo-site-header wpo-site-header-s3'} Logo={Logo} />
             <Hero5/>
+            <Testimonial2/>
             <Footer />
             <Scrollbar />
         </Fragment>
