@@ -12,7 +12,7 @@ import Image from 'next/image';
 import simg1 from '/public/images/service-single/2.jpg'
 import simg2 from '/public/images/service-single/3.jpg'
 import Footer from '../../components/footer/Footer';
-import logo from '/public/images/logo-3.svg'
+import logo from '/public/images/logo-3.PNG'
 
 const ServiceSinglePage = (props) => {
 

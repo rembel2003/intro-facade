@@ -1,31 +1,23 @@
 import React, { Fragment } from 'react';
 import Navbar from '../components/Navbar/Navbar'
-import Hero from '../components/hero/hero';
-import FunFact from '../components/FunFact/FunFact';
-import About from '../components/about/about';
-import ServiceSection from '../components/ServiceSection/ServiceSection';
 import HistorySection from '../components/HistorySection/HistorySection';
-import TeamSection from '../components/TeamSection/TeamSection';
-import ProjectSection from '../components/ProjectSection/ProjectSection';
-import Testimonial from '../components/Testimonial/Testimonial';
-import BlogSection from '../components/BlogSection/BlogSection';
 import Footer from '../components/footer/Footer';
 import Scrollbar from '../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo.svg'
+import Logo from '/public/images/logo-3.PNG'
+import HeroSlider from '../components/HeroSlider/HeroSlider'
+import About2 from '../components/about2/about2';
+import ServiceSection2 from '../components/ServiceSection2/ServiceSection2';
+import HeaderTopbar from '../components/HeaderTopbar/HeaderTopbar';
 
 const HomePage = () => {
     return (
         <Fragment>
-            <Navbar hclass={'wpo-site-header'}  Logo={Logo} />
-            <Hero hclass={'static-hero'} />
-            <FunFact hclass={'wpo-feature-section'} />
-            <About hclass={'wpo-about-section section-padding'}/>
-            <ServiceSection hclass={"wpo-service-section section-padding"} />
+            <HeaderTopbar />
+            <Navbar hclass={'wpo-site-header wpo-site-header-s3'} Logo={Logo} />
+            <HeroSlider hclass={'wpo-hero-slider wpo-hero-slider-s2'} />
+            <About2 hclass={'wpo-about-section-s2 section-padding'} />
+            <ServiceSection2 hclass={"wpo-service-section-s2 section-padding"} />
             <HistorySection hclass={'wpo-history-section'}/>
-            <TeamSection hclass={'wpo-team-section section-padding'}/>
-            <ProjectSection hclass={'wpo-project-section'}/>
-            <Testimonial tClass={'wpo-testimonial-section section-padding'} />
-            <BlogSection tClass={'wpo-blog-section section-padding'}/>
             <Footer />
             <Scrollbar />
         </Fragment>

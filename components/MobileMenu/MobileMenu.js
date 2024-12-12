@@ -43,103 +43,13 @@ const menus = [
     {
         id: 44,
         title: 'Монтаж',
-        link: '/',
-        submenu: [
-            {
-                id: 41,
-                title: 'Projects ',
-                link: '/project',
-            },
-            {
-                id: 42,
-                title: 'Projects Single',
-                link: '/project-single/Custom-Fabrication'
-            },
-        ]
-    },
-    {
-        id: 3,
-        title: 'Информация',
-        link: '/',
-        submenu: [
-            {
-                id: 31,
-                title: 'Team',
-                link: '/team'
-            },
-            {
-                id: 32,
-                title: 'Team single',
-                link: '/team-single/Henry-Bannet'
-            },
-            {
-                id: 33,
-                title: 'Shop Page',
-                link: '/shop'
-            },
-            {
-                id: 34,
-                title: 'Shop Single',
-                link: '/product-single/Perfume'
-            },
-            {
-                id: 35,
-                title: 'Cart',
-                link: '/cart'
-            },
-            {
-                id: 36,
-                title: 'Checkout',
-                link: '/checkout'
-            },
-            {
-                id: 37,
-                title: 'Pricing',
-                link: '/pricing'
-            },
-            {
-                id: 38,
-                title: '404 Error',
-                link: '/404'
-            },
-        ]
+        link: '/project',
+        
     },
     {
         id: 5,
-        title: 'Blog',
+        title: 'Акции',
         link: '/blog',
-        submenu: [
-            {
-                id: 51,
-                title: 'Blog',
-                link: '/blog'
-            },
-            {
-                id: 52,
-                title: 'Blog Left sidebar',
-                link: '/blog-left-sidebar'
-            },
-            {
-                id: 53,
-                title: 'Blog full width',
-                link: '/blog-fullwidth'
-            },
-            {
-                id: 54,
-                title: 'Blog single',
-                link: '/blog-single/Why-Industry-Are-A-Juicy-Target-For-Cyberattack'
-            },
-            {
-                id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-left-sidebar/Why-Industry-Are-A-Juicy-Target-For-Cyberattack'
-            },
-            {
-                id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-fullwidth/Why-Industry-Are-A-Juicy-Target-For-Cyberattack'
-            },
-        ]
     },
     {
         id: 88,

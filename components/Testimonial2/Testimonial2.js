@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Img1 from '/public/images/testimonial/img-1.jpg'
 import Img2 from '/public/images/testimonial/img-2.jpg'
 import Img3 from '/public/images/testimonial/img-3.jpg'
+import Img4 from '/public/images/testimonial/img-4.jpg'
 import Image from 'next/image';
 
 
@@ -19,7 +20,7 @@ const testimonials = [
     {
         id: '02',
         img: Img2,
-        Des: "Очень довольна . Дом преобразился: внешний вид стал современным, а теплоизоляция значительно улучшилась. Спасибо за внимательное отношение к деталям и аккуратную работу!",
+        Des: "Очень доволен. Дом преобразился: внешний вид стал современным, а теплоизоляция значительно улучшилась. Спасибо за внимательное отношение к деталям и аккуратную работу!",
         title: 'Evgenii Sirbu',
         sub: "Rieltor",
     },
@@ -32,7 +33,7 @@ const testimonials = [
     },
     {
         id: '04',
-        img: Img1,
+        img: Img4,
         Des: "Заказывали фасадный декор для загородного дома. Работу выполнили с идеальной точностью! Дом теперь выглядит как настоящее произведение искусства. Спасибо за качественный результат и быструю установку.",
         title: 'Dmitrii Sologub',
         sub: "Managin dirctor",

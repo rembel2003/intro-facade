@@ -8,7 +8,7 @@ import ShopProduct from '../../components/ShopProduct';
 import api from "../../api";
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/footer/Footer';
-import Logo from '/public/images/logo-3.svg';
+import Logo from '/public/images/logo-3.PNG';
 
 const ShopPage = ({ addToCart }) => {
 

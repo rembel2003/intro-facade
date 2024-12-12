@@ -4,7 +4,7 @@ import HeaderTopbar from '../../components/HeaderTopbar/HeaderTopbar';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-3.svg'
+import Logo from '/public/images/logo-3.PNG'
 import Hero3 from '../../components/hero3/hero3';
 import About from '../../components/about3/about3';
 import Contact from '../team-single/contact';

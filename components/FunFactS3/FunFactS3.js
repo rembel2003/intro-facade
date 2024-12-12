@@ -19,8 +19,7 @@ const FunFactS3 = (props) => {
                                 <Image src={icon5} alt="" />
                             </div>
                             <div className="content">
-                                <h2><CountUp end={500} enableScrollSpy />+</h2>
-                                <h3>Successfully</h3>
+                                <h3>Бесплатная Доставка</h3>
                             </div>
                         </div>
                     </div>
@@ -30,8 +29,7 @@ const FunFactS3 = (props) => {
                                 <Image src={icon6} alt="" />
                             </div>
                             <div className="content">
-                                <h2><CountUp end={300} enableScrollSpy />+</h2>
-                                <h3>Highly</h3>
+                                <h3>Высокое качество</h3>
                             </div>
                         </div>
                     </div>
@@ -41,8 +39,7 @@ const FunFactS3 = (props) => {
                                 <Image src={icon7} alt="" />
                             </div>
                             <div className="content">
-                                <h2><CountUp end={226} enableScrollSpy />+</h2>
-                                <h3>Countries</h3>
+                                <h3>Лучшие цены</h3>
                             </div>
                         </div>
                     </div>
@@ -52,8 +49,7 @@ const FunFactS3 = (props) => {
                                 <Image src={icon8} alt="" />
                             </div>
                             <div className="content">
-                                <h2><CountUp end={25} enableScrollSpy />+</h2>
-                                <h3>Historical</h3>
+                                <h3>Гарантия на услуги</h3>
                             </div>
                         </div>
                     </div>

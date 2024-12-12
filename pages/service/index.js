@@ -5,7 +5,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-3.svg'
+import Logo from '/public/images/logo-3.PNG'
 
 
 const ServicePage = () => {
@@ -13,7 +13,7 @@ const ServicePage = () => {
         <Fragment>
             <HeaderTopbar />
             <Navbar hclass={'wpo-site-header wpo-site-header-s3'} Logo={Logo} />
-            <PageTitle pageTitle={'Service'} pagesub={'Service'} />
+            <PageTitle pageTitle={'Продукция из пенопласта'} pagesub={'Service'} />
             <ServiceSection hclass={"wpo-service-section s2 section-padding"} />
             <Footer />
             <Scrollbar />
