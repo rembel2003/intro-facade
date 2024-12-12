@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 
-import logo from '/public/images/logo-3.PNG';
+import logo from '/public/images/logo-3.png';
 
 const BlogPage =() => {
     return(

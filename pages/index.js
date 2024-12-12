@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar/Navbar'
 import HistorySection from '../components/HistorySection/HistorySection';
 import Footer from '../components/footer/Footer';
 import Scrollbar from '../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-3.PNG'
+import Logo from '/public/images/logo-3.png'
 import HeroSlider from '../components/HeroSlider/HeroSlider'
 import About2 from '../components/about2/about2';
 import ServiceSection2 from '../components/ServiceSection2/ServiceSection2';

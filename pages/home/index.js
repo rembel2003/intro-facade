@@ -7,7 +7,7 @@ import ServiceSection2 from '../../components/ServiceSection2/ServiceSection2';
 import ProjectSection from '../../components/ProjectSection/ProjectSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-3.PNG'
+import Logo from '/public/images/logo-3.png'
 import HistorySection from "../../components/HistorySection/HistorySection";
 
 

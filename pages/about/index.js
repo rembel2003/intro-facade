@@ -6,7 +6,7 @@ import About from '../../components/about/about';
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '/public/images/logo-3.PNG'
+import Logo from '/public/images/logo-3.png'
 import FunFactS3 from "../../components/FunFactS3/FunFactS3"
 
 
