@@ -7,7 +7,7 @@ import blogs from '../../api/blogs'
 import BlogSingle from '../../components/BlogDetails/BlogSingle.js'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import Logo from '/public/images/logo-3.svg'
+import Logo from '/public/images/logo-3.png'
 
 
 const BlogDetailsFull =() => {

@@ -8,7 +8,7 @@ import { useRouter } from 'next/router'
 import blogs from '../../api/blogs'
 import BlogSingle from '../../components/BlogDetails/BlogSingle.js'
 import Footer from '../../components/footer/Footer';
-import Logo from '/public/images/logo-3.svg'
+import Logo from '/public/images/logo-3.png'
 
 
 const BlogDetails =() => {

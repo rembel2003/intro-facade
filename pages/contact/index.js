@@ -5,7 +5,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Contactpage from '../../components/Contactpage/Contactpage'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import Logo from '/public/images/logo-3.svg'
+import Logo from '/public/images/logo-3.png'
 
 const ContactPage =() => {
     return(
