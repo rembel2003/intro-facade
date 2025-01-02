@@ -5,6 +5,7 @@ import { totalPrice } from "../../utils";
 import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
 import Image from 'next/image';
+import { useTranslations } from 'use-intl';
 
 
 
@@ -21,6 +22,8 @@ const Header = (props) => {
     }
 
     const { carts } = props;
+
+    const t = useTranslations('Header')
 
 
     return (
@@ -43,33 +46,33 @@ const Header = (props) => {
                                     <button className="menu-close"><i className="ti-close"></i></button>
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/home">Home</Link>
+                                            <Link onClick={ClickHandler} href="/home">{t('home')}</Link>
                                         </li>
-                                        <li><Link onClick={ClickHandler} href="/about">About</Link></li>
+                                        <li><Link onClick={ClickHandler} href="/about">{t('about_us')}</Link></li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/service">Продукция</Link>
+                                            <Link onClick={ClickHandler} href="/service">{t('products')}</Link>
                                             <ul className="sub-menu">
-                                                <li><Link onClick={ClickHandler} href="/service">Продукция из пенопласта</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/service-s2">Отделка фасадов из пенопласта</Link></li>
-                                                <li><Link onClick={ClickHandler} href="/shop">Интернет - магазин</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/service">{t('products_foam')}</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/service-s2">{t('products_facade_finish')}</Link></li>
+                                                <li><Link onClick={ClickHandler} href="/shop">{t('products_online_store')}</Link></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/project">Монтаж</Link>
+                                            <Link onClick={ClickHandler} href="/project">{t('installation')}</Link>
                                         </li>
                                         
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/blog">Акции</Link>
+                                            <Link onClick={ClickHandler} href="/blog">{t('promotions')}</Link>
                                             
                                         </li>
-                                        <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>
+                                        <li><Link onClick={ClickHandler} href="/contact">{t('contact')}</Link></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-2 col-2">
                                 <div className="header-right">
                                     <div className="close-form">
-                                        <Link onClick={ClickHandler} className="theme-btn" href="/contact">Get In Touch</Link>
+                                        <Link onClick={ClickHandler} className="theme-btn" href="/contact">{t('get_in_touch')}</Link>
                                     </div>
                                 </div>
                             </div>

@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Services from "../../api/Services";
 import Image from "next/image";
+import { useTranslations } from "use-intl";
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);
@@ -13,6 +14,7 @@ const ClickHandler = () => {
 
 const ServiceSection = (props) => {
 
+    const t = useTranslations("ServiceSection2")
 
     const settings = {
         dots: false,
@@ -63,8 +65,8 @@ const ServiceSection = (props) => {
                                     <div className="icon">
                                         <Image src={service.icon} alt="" />
                                     </div>
-                                    <h2><Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${service.slug}`}>{service.title}</Link></h2>
-                                    <p>{service.description}</p>
+                                    <h2><Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${t(`${service.slug}`)}`}>{t(`${service.title}`)}</Link></h2>
+                                    <p>{t(`${service.description}`)}</p>
                                 </div>
                             </div>
                         ))}

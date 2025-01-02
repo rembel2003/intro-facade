@@ -9,8 +9,11 @@ import Slider1 from '/public/images/slider/slide-img-1.jpg'
 import Slider2 from '/public/images/slider/slide-img-2.jpg'
 import Slider3 from '/public/images/slider/slide-img-3.jpg'
 import Image from 'next/image';
+import { useTranslations } from 'use-intl';
 
 const Hero3 = () => {
+
+    const t =useTranslations("products_facade_finish")
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
@@ -39,9 +42,9 @@ const Hero3 = () => {
         <section className="static-hero-s3">
             <div className="container">
                 <div className="content">
-                    <h2>Отделка фасадов из пенопласта</h2>
-                    <h3>Для утепленмя и декорирования домов</h3>
-                    <p>Если вам нужно одновременно украсить и утеплить фасад дома,то для этой задачи отлично подойдут фасадные панели</p>
+                    <h2>{t("title")}</h2>
+                    <h3>{t("text1")}</h3>
+                    <p>{t("text2")}</p>
                 </div>
             </div>
             <Slider {...settings} className="hero-slider">

@@ -13,8 +13,12 @@ import 'react-toastify/dist/ReactToastify.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from 'next/head'
+import {useRouter} from 'next/router';
+import {IntlProvider} from 'use-intl';
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+  const {messages, now, ...rest} = pageProps;
   return (
     <div>
       <Head>
@@ -22,7 +26,12 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          <Component {...pageProps} />
+          <IntlProvider
+            locale={router.locale}
+            messages={messages}
+          >
+            <Component {...pageProps} />
+          </IntlProvider>
         </PersistGate>
       </Provider>
       <ToastContainer />
@@ -31,4 +40,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default MyApp;

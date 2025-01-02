@@ -1,0 +1,99 @@
+{
+    "Header": {
+        "home": "Acasă",
+        "about_us": "Despre noi",
+        "products": "Produse",
+        "products_foam": "Produse din spumă",
+        "products_facade_finish": "Finisaje de fațadă cu spumă",
+        "products_online_store": "Magazin Online",
+        "installation": "Montaj",
+        "promotions": "Promoții",
+        "contact": "Contact",
+        "get_in_touch": "Contactați-ne"
+    },
+    "HeroSlider": {
+        "slide_1_title": "Producție din spumă",
+        "slide_1_text": "90% din comenzi sunt expediate în aceeași zi",
+        "slide_2_title": "Fabricarea produselor de înaltă calitate",
+        "slide_2_text": "Punctualitate și fiabilitate. Puteți fi siguri că producția și livrarea vor fi realizate la timp.",
+        "slide_3_title": "Creăm produse care simplifică viața",
+        "slide_3_text": "Transformăm în formă orice idee a ta!",
+        "about_us_button": "Despre noi"
+    },
+   "About": {
+        "title": "Despre companie",
+        "subtitle": "Creăm soluții inovatoare din spumă",
+        "description": "Fabrica noastră este unul dintre cei mai importanți producători de produse din spumă din regiune. De mai bine de 10 ani, creăm produse care sunt utilizate în construcții, ambalaje, decorațiuni și în alte domenii. Scopul nostru este de a oferi clienților soluții de calitate, ecologice și durabile."
+    },
+    "About2": {
+        "company_title": "Despre companie",
+        "quality_title": "Calitate la cele mai bune prețuri",
+        "company_description": "De la 2014, INTRO FACADE este un expert de încredere în industria producției de spumă. Pentru fiecare client care dorește să aducă diversitate în viața sa folosind produse din spumă cu un design estetic pentru case, birouri, zone comerciale sau grădini, INTRO FACADE este gata să devină un partener și prieten de încredere.",
+        "guarantee": "Garanție de durabilitate",
+        "task_compliance": "Respectarea completă a cerinței",
+        "on_time": "Finalizarea la timp",
+        "partner_conditions": "Condiții convenabile pentru parteneri",
+        "wide_selection": "Gama largă de opțiuni",
+        "consultations": "Consultanță",
+        "about_us_button": "Despre noi"
+    },
+    "ServiceSection2": {
+        "offer": "Ce oferim",
+        "services": "Serviciile noastre",
+        "title1": "Izolație din spumă pentru țevi",
+        "description1": "O soluție eficientă pentru izolarea țevi, asigurând izolație termică și reducerea pierderilor de căldură.",
+        "description_big1": "O soluție fiabilă pentru izolarea țevi. Material ușor și ecologic care previne înghețarea apei în țevi iarna și minimizează pierderile de căldură în sistemele de încălzire. Ideal pentru utilizarea în clădiri rezidențiale și industriale, protejând utilitățile și prelungind durata lor de viață.",
+        "slug1": "Izolație din spumă pentru țevi",
+        "title2": "Ambalaje din spumă",
+        "description2": "Ambalaje rezistente și ușoare pentru protecția fiabilă a bunurilor în timpul transportului și depozitării.",
+        "description_big2": "O soluție modernă pentru transportul și depozitarea în siguranță a bunurilor. Ambalajele din spumă sunt foarte rezistente și ușoare, protejând produsele de șocuri, vibrații și daune. Ideal pentru electronice, mobilier, sticlă și alte obiecte fragile. Ușor de reciclat, făcându-le o alegere ecologică.",
+        "slug2": "Ambalaje din spumă",
+        "title3": "Izolație pentru încălzire în pardoseală",
+        "description3": "Materialul ideal pentru instalarea sistemelor de încălzire în pardoseală, asigurând o distribuire uniformă a căldurii.",
+        "description_big3": "Un element esențial în sistemele moderne de încălzire în pardoseală. Izolația din spumă asigură retenția eficientă a căldurii, distribuirea uniformă a temperaturii pe întreaga suprafață și reducerea pierderilor de căldură. Ușor de instalat și rezistentă la umiditate, creează confort și căldură în locuința dumneavoastră.",
+        "slug3": "Izolație pentru încălzire în pardoseală",
+        "title4": "Produse din spumă",
+        "description4": "O gamă largă de produse din spumă pentru scopuri decorative și de construcție, cu o mare durabilitate.",
+        "description_big4": "O selecție largă de produse din spumă pentru aplicații decorative și de construcție. Ușoare, rezistente și durabile, aceste produse sunt ideale pentru diverse scopuri: de la crearea ambalajelor la fabricarea elementelor arhitecturale complexe. Opțiuni de producție personalizate sunt disponibile.",
+        "slug4": "Produse din spumă",
+        "title5": "Decorațiuni pentru fațade",
+        "description5": "O soluție elegantă și practică pentru decorarea fațadelor clădirilor.",
+        "description_big5": "O soluție stilată și funcțională pentru decorarea fațadelor clădirilor. Elemente ușoare și durabile din spumă, cum ar fi cornișele, plintele și coloanele, adaugă caracter clădirii și îi îmbunătățesc valoarea estetică. Rezistente la condițiile meteorologice și ușor de instalat, asigurând durabilitate și un aspect luxos.",
+        "slug5": "Decorațiuni pentru fațade"
+    },
+    "HistorySection": {
+        "history": "Istoria noastră",
+        "title": "Istoria companiei, prezentul și viitorul",
+        "description": "Acum 14 ani, când am oferit clienților decorul fațadei de 5 ori mai ieftin și mai rapid în producție decât decorațiunile din ghips și poliuretan, aceștia s-au îndoit că acest lucru ar fi posibil.\n\nAm fost printre primii care au introdus pe piață o tehnologie nouă de construcție a decorului de fațadă din elemente de spumă, aplicată în Canada și Statele Unite. Lansând o linie de producție pentru fabricarea produselor din polistiren, realizăm orice soluții de design care sunt mult mai ieftine pentru client decât alternativele realizate din alte materiale, mai durabile în utilizare și mai rapide în producție.",
+        "discoverMore": "Aflați mai multe"
+    },
+    "Footer": {
+        "our_services": "Serviciile noastre",
+        "navigation": "Navigație",
+        "newsletter": "Știri",
+        "get_latest": "Primiți cele mai recente actualizări și oferte",
+        "placeholder": "Emailul dumneavoastră"
+    },
+    "FunFactS3": {
+        "free_delivery": "Livrare Gratuită",
+        "high_quality": "Calitate Înaltă",
+        "best_prices": "Cele Mai Bune Prețuri",
+        "service_warranty": "Garanție pentru Servicii"
+    },
+    "products_facade_finish": {
+    "title": "Finisarea fațadelor cu panouri din polistiren",
+    "text1": "Pentru izolarea și decorarea caselor",
+    "text2": "Dacă aveți nevoie să decorați și să izolați simultan fațada casei, panourile pentru fațade sunt o soluție excelentă pentru această sarcină.",
+    "title1": "Panouri de Fațadă",
+    "title2": "Polifasadă",
+    "text3": "Polifasada este fabricată folosind o tehnologie care îmbină două straturi (izolație și strat de protecție) într-un singur panou. Această tehnologie prelungește durata de viață a panourilor și reduce costurile fără a compromite calitatea.",
+    "icon": "21 Texturi ale panourilor de fațadă",
+    "icon2": "2 Opțiuni de izolare termică",
+    "icon3": "Ușor de tăiat",
+    "icon4": "Rezistent la deteriorări mecanice",
+    "icon5": "Producție de calitate",
+    "icon6": "Livrare rapidă",
+    "about": "Află mai multe despre panourile pentru fațade"
+}
+
+  }

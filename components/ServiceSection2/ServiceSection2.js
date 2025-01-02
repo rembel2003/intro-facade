@@ -2,21 +2,22 @@ import React from "react";
 import Link from 'next/link'
 import Services from "../../api/Services";
 import Image from "next/image";
+import { useTranslations } from "use-intl";
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);
 }
 
 const ServiceSection2 = (props) => {
-
+    const t = useTranslations("ServiceSection2")
     return (
         <section className={"" + props.hclass}>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-6 col-12">
                         <div className="wpo-section-title-s2">
-                            <h2>What We Offer</h2>
-                            <h3>Our Services</h3>
+                            <h2>{t("offer")}</h2>
+                            <h3>{t("services")}</h3>
                         </div>
                     </div>
                 </div>
@@ -34,8 +35,8 @@ const ServiceSection2 = (props) => {
                                     <div className="icon">
                                         <Image src={service.icon} alt="" />
                                     </div>
-                                    <h2><Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${service.slug}`}>{service.title}</Link></h2>
-                                    <p>{service.description}</p>
+                                    <h2><Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${t(`${service.slug}`)}`}>{t(`${service.title}`)}</Link></h2>
+                                    <p>{t(`${service.description}`)}</p>
                                 </div>
                             </div>
                         </div>

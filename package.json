@@ -16,7 +16,8 @@
     "hotkeys-js": "^3.10.1",
     "i18next": "^24.1.0",
     "next": "^13.0.7",
-    "next-i18next": "^15.4.0",
+    "next-i18next": "^15.4.1",
+    "next-intl": "^3.26.3",
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-animated-css": "^1.2.1",
@@ -26,6 +27,7 @@
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
     "react-i18next": "^15.2.0",
+    "react-intl": "^7.0.4",
     "react-medium-image-zoom": "^4.3.4",
     "react-modal-video": "^2.0.2",
     "react-owl-carousel": "^2.3.1",
@@ -46,6 +48,7 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.6",
     "swiper": "^8.4.5",
+    "use-intl": "^3.26.3",
     "yet-another-react-lightbox": "^3.19.0"
   }
 }

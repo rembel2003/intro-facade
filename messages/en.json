@@ -1,0 +1,99 @@
+{   
+    "Header": {
+        "home": "Home",
+        "about_us": "About Us",
+        "products": "Products",
+        "products_foam": "Foam Products",
+        "products_facade_finish": "Facade Finish with Foam",
+        "products_online_store": "Online Store",
+        "installation": "Installation",
+        "promotions": "Promotions",
+        "contact": "Contact",
+        "get_in_touch": "Get In Touch"
+    },
+    "HeroSlider": {
+        "slide_1_title": "Foam Production",
+        "slide_1_text": "90% of orders are shipped the same day",
+        "slide_2_title": "High-Quality Manufacturing",
+        "slide_2_text": "Punctuality and reliability. You can be sure that production and delivery will be completed on the agreed time.",
+        "slide_3_title": "We create products that make life easier",
+        "slide_3_text": "We can bring any of your ideas to life!",
+        "about_us_button": "About Us"
+    },
+    "About": {
+        "title": "About Company",
+        "subtitle": "We create innovative solutions from foam",
+        "description": "Our factory is one of the leading manufacturers of foam products in the region. For over 10 years, we have been creating products that are used in construction, packaging, decor, and other fields. Our goal is to provide customers with high-quality, environmentally safe, and durable solutions."
+    },
+    "About2": {
+        "company_title": "About the Company",
+        "quality_title": "Quality at the Best Prices",
+        "company_description": "Since 2014, INTRO FACADE has been a trusted expert in the foam production industry. For each client looking to bring diversity into their life using highly aesthetic foam products for homes, office spaces, commercial areas, or gardens, INTRO FACADE is ready to become a reliable partner and friend.",
+        "guarantee": "Durability Guarantee",
+        "task_compliance": "Complete Task Compliance",
+        "on_time": "On-Time Completion",
+        "partner_conditions": "Convenient Conditions for Partners",
+        "wide_selection": "Wide Range of Options",
+        "consultations": "Consultations",
+        "about_us_button": "About Us"
+    },
+    "ServiceSection2": {
+        "offer": "What We Offer",
+        "services": "Our Services",
+        "title1": "Foam Pipe Insulation",
+        "description1": "An effective solution for pipe insulation, providing thermal insulation and reducing heat loss.",
+        "description_big1": "A reliable solution for pipe insulation. A lightweight, eco-friendly material that prevents water from freezing in pipes during winter and minimizes heat loss in heating systems. Ideal for use in residential and industrial buildings, protecting utilities and extending their service life.",
+        "slug1": "Foam Pipe Insulation",
+        "title2": "Foam Packaging",
+        "description2": "Strong and lightweight packaging for reliable protection of goods during transportation and storage.",
+        "description_big2": "A modern solution for the safe transportation and storage of goods. Foam packaging is highly durable and lightweight, protecting products from shocks, vibrations, and damage. Perfect for electronics, furniture, glass, and other fragile items. Easy to recycle, making it an environmentally friendly choice.",
+        "slug2": "Foam Packaging",
+        "title3": "Underfloor Heating Insulation",
+        "description3": "The ideal material for installing underfloor heating systems, ensuring even heat distribution.",
+        "description_big3": "An essential element in modern underfloor heating systems. Foam insulation ensures effective heat retention, uniform temperature distribution across the surface, and reduces heat loss. Easy to install and resistant to moisture, it creates comfort and warmth in your home.",
+        "slug3": "Underfloor Heating Insulation",
+        "title4": "Foam Products",
+        "description4": "A wide range of foam products for decorative and construction purposes with high durability.",
+        "description_big4": "A broad selection of foam products for decorative and construction applications. Lightweight, strong, and resistant to external factors, they are ideal for various tasks: from creating packaging to producing complex architectural elements. Custom manufacturing options are available.",
+        "slug4": "Foam Products",
+        "title5": "Facade Decor",
+        "description5": "An elegant and practical solution for decorating building facades.",
+        "description_big5": "A stylish and functional solution for decorating building facades. Lightweight and durable foam elements such as cornices, moldings, and columns add character to the building and enhance its aesthetic value. Weather-resistant and easy to install, they ensure long-lasting durability and a luxurious appearance.",
+        "slug5": "Facade Decor"
+    },
+    "HistorySection": {
+        "history": "Our History",
+        "title": "Company history, present, and future",
+        "description": "14 years ago, when we offered clients facade decor that was 5 times cheaper in price and faster to produce than gypsum and polyurethane decorations, they doubted that it was possible.\n\nWe were among the first to introduce the new construction technology of facade decor using foam elements, which are applied in Canada and the USA. By launching a production line for the production of polystyrene products, we execute any design solutions that are significantly cheaper for the client compared to alternatives made from other materials, more durable in use, and faster to produce.",
+        "discoverMore": "Discover More"
+    },
+    "Footer":{
+        "our_services":"Our Services",
+        "navigation":"Navigalion",
+        "newsletter":"Newsletter",
+        "get_latest":"Get latest updates and offers",
+        "placeholder":"Your email"
+    },
+    "FunFactS3": {
+        "free_delivery": "Free Delivery",
+        "high_quality": "High Quality",
+        "best_prices": "Best Prices",
+        "service_warranty": "Service Warranty"
+    },
+   "products_facade_finish": {
+    "title": "Facade finishing with foam panels",
+    "text1": "For insulation and decoration of houses",
+    "text2": "If you need to simultaneously decorate and insulate the facade of your house, facade panels are an excellent solution for this task.",
+    "title1": "Facade Panels",
+    "title2": "Polyfacade",
+    "text3": "Polyfacade is manufactured using a technology that bonds two layers (insulation and protective layer) into a single panel. This technology extends the lifespan of the panels and reduces their cost without compromising quality.",
+    "icon": "21 Textures of facade panels",
+    "icon2": "2 Insulation options",
+    "icon3": "Easy to cut",
+    "icon4": "Resistant to mechanical damage",
+    "icon5": "High-quality production",
+    "icon6": "Fast delivery",
+    "about": "Learn more about facade panels"
+}
+
+  }

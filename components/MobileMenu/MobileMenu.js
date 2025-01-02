@@ -3,36 +3,37 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/List";
 import Collapse from "@mui/material/Collapse";
 import Link from "next/link";
+import { useTranslations } from 'use-intl';
 
 const menus = [
     {
         id: 1,
-        title: 'Home',
+        title: 'home',
         link: '/home',
     },
     {
         id: 88,
-        title: 'About Us',
+        title: 'about_us',
         link: '/about',
     },
     {
         id: 7,
-        title: 'Продукция',
+        title: 'products',
         link: '#',
         submenu: [
             {
                 id: 71,
-                title: 'Продукция из пенопласта',
+                title: 'products_foam',
                 link: '/service',
             },
             {
                 id: 72,
-                title: 'Отделка фасадов из пенопласта',
+                title: 'products_facade_finish',
                 link: '/service-s2',
             },
             {
                 id: 73,
-                title: 'Интернет - магазин',
+                title: 'products_online_store',
                 link: '/service-s3',
             },
             
@@ -42,27 +43,25 @@ const menus = [
     },
     {
         id: 44,
-        title: 'Монтаж',
+        title: 'installation',
         link: '/project',
         
     },
     {
         id: 5,
-        title: 'Акции',
+        title: 'promotions',
         link: '/blog',
     },
     {
         id: 88,
-        title: 'Contact',
+        title: 'contact',
         link: '/contact',
     }
-
-
 ]
 
 
 const MobileMenu = () => {
-
+    const t = useTranslations("Header")
     const [openId, setOpenId] = useState(0);
     const [menuActive, setMenuState] = useState(false);
 
@@ -83,7 +82,7 @@ const MobileMenu = () => {
                             <ListItem className={item.id === openId ? 'active' : null} key={mn}>
                                 {item.submenu ?
                                     <Fragment>
-                                        <p onClick={() => setOpenId(item.id === openId ? 0 : item.id)}>{item.title}
+                                        <p onClick={() => setOpenId(item.id === openId ? 0 : item.id)}>{t(`${item.title}`)}
                                             <i className={item.id === openId ? 'fa fa-angle-up' : 'fa fa-angle-down'}></i>
                                         </p>
                                         <Collapse in={item.id === openId} timeout="auto" unmountOnExit>
@@ -93,7 +92,7 @@ const MobileMenu = () => {
                                                         return (
                                                             <ListItem key={i}>
                                                                 <Link onClick={ClickHandler} className="active"
-                                                                    href={submenu.link}>{submenu.title}</Link>
+                                                                    href={submenu.link}>{t(`${submenu.title}`)}</Link>
                                                             </ListItem>
                                                         )
                                                     })}
@@ -102,7 +101,7 @@ const MobileMenu = () => {
                                         </Collapse>
                                     </Fragment>
                                     : <Link className="active"
-                                        href={item.link}>{item.title}</Link>
+                                        href={item.link}>{t(`${item.title}`)}</Link>
                                 }
                             </ListItem>
                         )

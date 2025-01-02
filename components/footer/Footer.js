@@ -3,6 +3,8 @@ import Link from 'next/link'
 import logo from '/public/images/logo-3.png'
 import Services from '../../api/Services';
 import Image from 'next/image';
+import { useTranslations } from 'use-intl';
+import { useTranslation } from 'react-i18next';
 
 
 
@@ -13,6 +15,10 @@ const ClickHandler = () => {
 
 const Footer = (props) => {
     const [email, setEmail] = useState('');
+
+    const t = useTranslations("ServiceSection2")
+    const h = useTranslations("Header")
+    const f = useTranslations("Footer")
 
     const handleReset = () => {
         setEmail('');
@@ -41,11 +47,11 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget">
                                 <div className="widget-title">
-                                    <h3>Our Services</h3>
+                                    <h3>{f("our_services")}</h3>
                                 </div>
                                 <ul>
                                     {Services.slice(0, 5).map((service, Sitem) => (
-                                        <li key={Sitem}><Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${service.slug}`}>{service.title}</Link></li>
+                                        <li key={Sitem}><Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${t(`${service.slug}`)}`}>{t(`${service.title}`)}</Link></li>
                                     ))}
                                 </ul>
                             </div>
@@ -53,28 +59,28 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget">
                                 <div className="widget-title">
-                                    <h3>Navigalion</h3>
+                                    <h3>{f("navigation")}</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} href="/">Home</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/about">about us</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service">Продукция</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/blog">Акции</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/contact">contact us</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/">{h("home")}</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/about">{h("about_us")}</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/service">{h("products")}</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/blog">{h("promotions")}</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/contact">{h("contact")}</Link></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget newsletter-widget">
                                 <div className="widget-title">
-                                    <h3>Newsletter</h3>
+                                    <h3>{f("newsletter")}</h3>
                                 </div>
-                                <p>Get latest updates and offers</p>
+                                <p>{f("get_latest")}</p>
                                 <div className="email-from">
                                     <input
                                         className="fild"
                                         type="text"
-                                        placeholder="Your email"
+                                        placeholder={f("placeholder")}
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
                                     />

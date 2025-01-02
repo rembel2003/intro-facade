@@ -1,7 +1,18 @@
 import React from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 
 const HeaderTopbar = (props) => {
+    const router = useRouter();
+
+    // Функция для изменения языка
+    const changeLanguage = (e) => {
+        const selectedLocale = e.target.value;
+        const { pathname, query, asPath } = router;
+
+        router.push({ pathname, query }, asPath, { locale: selectedLocale });
+    };
+    
     return (
         <div className="topbar" >
             <div className="container-fluid">
@@ -19,10 +30,15 @@ const HeaderTopbar = (props) => {
                         <div className="contact-info">
                             <ul>
                                 <li className="language">
-                                    <select name="language" id="language">
-                                        <option value="">English</option>
-                                        <option value="">Romanian</option>
-                                        <option value="">Russian</option>
+                                <select
+                                        name="language"
+                                        id="language"
+                                        value={router.locale} // Устанавливаем текущий язык
+                                        onChange={changeLanguage}
+                                    >
+                                        <option value="en">English</option>
+                                        <option value="ro">Romanian</option>
+                                        <option value="ru">Russian</option>
                                     </select>
                                 </li>
                                 <li><Link href="/"><i className="ti-facebook"></i></Link></li>

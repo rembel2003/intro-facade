@@ -3,8 +3,11 @@ import Link from 'next/link';
 import About1 from '/public/images/ab-3.jpg';
 import About3 from '/public/images/ab-4.jpg';
 import Image from 'next/image';
+import { useTranslations } from 'use-intl';
 
 const About2 = (props) => {
+
+    const t =useTranslations("About2")
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
@@ -27,27 +30,27 @@ const About2 = (props) => {
                     <div className="col-lg-6 col-12">
                         <div className="content">
                             <div className="text">
-                                <h2>О компании</h2>
-                                <h3>Качество по лучшим ценам</h3>
+                                <h2>{t("company_title")}</h2>
+                                <h3>{t("quality_title")}</h3>
                                 <p>
-                                    На рынке производства продукции из пенопласта компания «INTRO FACADE» является экспертом с 2014 года проверенной репутацией. Для каждого клиента, который стремится внести разнообразие в свою жизнь, используя для дома, офисного помещения, торговой площадки, сада высокоэстетичные изделия из пенополистирола, ведущая компания «INTRO_FACADE» готова стать надежным партнером и другом.
+                                    {t("company_description")}
                                 </p>
                             </div>
                             <div className="list">
                                 <ul>
-                                    <li><i className="ti-check"></i> <span>Гарантия долговечности</span></li>
-                                    <li><i className="ti-check"></i> <span>Полное соответствие задаче</span></li>
-                                    <li><i className="ti-check"></i> <span>Выполнение точно в срок</span></li>
+                                    <li><i className="ti-check"></i> <span>{t("guarantee")}</span></li>
+                                    <li><i className="ti-check"></i> <span>{t("task_compliance")}</span></li>
+                                    <li><i className="ti-check"></i> <span>{t("on_time")}</span></li>
                                 </ul>
                                 <ul>
-                                    <li><i className="ti-check"></i> <span>Удобные условия партнерам</span></li>
-                                    <li><i className="ti-check"></i> <span>Широкий диапазон выбора</span></li>
-                                    <li><i className="ti-check"></i> <span>Консультации</span></li>
+                                    <li><i className="ti-check"></i> <span>{t("partner_conditions")}</span></li>
+                                    <li><i className="ti-check"></i> <span>{t("wide_selection")}</span></li>
+                                    <li><i className="ti-check"></i> <span>{t("consultations")}</span></li>
                                 </ul>
 
                             </div>
                             <div className="about-btn">
-                                <Link onClick={ClickHandler} href="/about" className="theme-btn">About Us</Link>
+                                <Link onClick={ClickHandler} href="/about" className="theme-btn">{t("about_us_button")}</Link>
                             </div>
                         </div>
                     </div>
