@@ -1,11 +1,14 @@
 import React from "react";
 import Link from "next/link";
+import { useTranslations } from "use-intl";
 
 
 const ShopProduct = ({ products, addToCartProduct }) => {
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     };
+
+    const t = useTranslations("shop")
 
     return (
         <section className="wpo-shop-section">
@@ -20,7 +23,7 @@ const ShopProduct = ({ products, addToCartProduct }) => {
                                             <img src={product.proImg} alt="" style={{height: "395px"}}/>
                                         </div>
                                         <div className="details">
-                                            <h3><Link onClick={ClickHandler} href={'/contact'}>{product.title}</Link></h3>
+                                            <h3><Link onClick={ClickHandler} href={'/contact'}>{t(`${product.title}`)}</Link></h3>
                                         </div>
                                     </div>
                                 ))}

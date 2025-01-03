@@ -93,7 +93,60 @@
     "icon4": "Rezistent la deteriorări mecanice",
     "icon5": "Producție de calitate",
     "icon6": "Livrare rapidă",
-    "about": "Află mai multe despre panourile pentru fațade"
-}
-
+    "about": "Află mai multe despre panourile pentru fațade",
+    "contact_me":"Contactați-ne",
+    "placeholder_name":"Numele dumneavoastră",
+    "placeholder_email":"Email-ul dumneavoastră",
+    "placeholder_message":"Mesaj",
+    "submit_now":"Trimite acum"
+},
+"shop":{
+  "title1": "Produse din spumă",
+  "title2": "Ambalaje din spumă",
+  "title3": "Polifasadă",
+  "title4": "Decor fațadă din spumă",
+  "title5": "Substrat pentru podea încălzită cu apă",
+  "title6": "Izolație pentru țevi din polistiren"
+},
+"montaj":{
+    "title": "Montaj",
+    "subtitle": "Montaj de la",
+    "description": "Echipa Intro Facade efectuează supervizarea montării sistemului de drenaj, instalarea panourilor de fațadă, polifasade, decor fațadă, izolație cu spumă poliuretanică și hidroizolație cu poliuree."
+  },
+  "testimonials": {
+    "subtitle": "Ce spun clienții noștri",
+    "Des1": "Am comandat supervizarea instalării sistemului de drenaj pentru casa noastră de la țară. Lucrarea a fost realizată la cel mai înalt nivel! Echipa a instalat rapid, ținând cont de toate dorințele noastre. Recomand cu căldură!",
+    "sub1": "Dezvoltator",
+    "Des2": "Foarte mulțumit. Casa s-a transformat: aspectul a devenit modern, iar izolația termică s-a îmbunătățit semnificativ. Mulțumim pentru atenția la detalii și munca atentă!",
+    "sub2": "Agent imobiliar",
+    "Des3": "Am apelat la ei pentru izolație cu spumă poliuretanică. În casă a devenit imediat mai cald, iar facturile la încălzire au scăzut. Procesul a fost rapid și curat. Au echipamente moderne și au făcut totul impecabil. Recomand cu încredere!",
+    "sub3": "Om de afaceri",
+    "Des4": "Am comandat decor pentru fațadă pentru casa noastră de la țară. Lucrarea a fost realizată cu o precizie perfectă! Casa arată acum ca o adevărată capodoperă. Mulțumim pentru rezultat de calitate și instalare rapidă.",
+    "sub4": "Director executiv"
+  },
+  "promotions": {
+    "related": "Postări asemănătoare",
+    "title1": "Seturi de decorațiuni de fațadă cu o reducere de 5%",
+    "subtitle1": "Durata: Nelimitată",
+    "link1": "Citește mai mult",
+    "description1": "Comandă un set de decorațiuni de fațadă din catalogul nostru și beneficiază de o reducere de 5% la întreaga comandă.",
+    "title2": "Recomandă unui prieten și primește o reducere de 3%",
+    "subtitle2": "Durata: Nelimitată",
+    "description2": "Plasați comenzi separate împreună cu un prieten, rudă sau vecin și beneficiați de o reducere de 3% la comanda dvs. Nu este necesar să comandați același produs.",
+    "title3": "Vânzare de lichidare a stocurilor",
+    "subtitle3": "Durata: Nelimitată",
+    "description3": "Vindem toate stocurile rămase."
+  },
+  "Contact": {
+    "address": "Adresă",
+    "email": "Scrieți-ne",
+    "telephon": "Sunați acum",
+    "question": "Aveți întrebări?",
+    "answer": "Așteptăm întotdeauna cu nerăbdare mesajul dvs.",
+    "name": "Numele dvs.",
+    "email_placeholder": "Emailul dvs.",
+    "phone": "Telefonul dvs.",
+    "message": "Mesaj",
+    "submit": "Trimiteți acum"
   }
+}

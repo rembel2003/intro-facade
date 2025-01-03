@@ -7,36 +7,37 @@ import Img2 from '/public/images/testimonial/img-2.jpg'
 import Img3 from '/public/images/testimonial/img-3.jpg'
 import Img4 from '/public/images/testimonial/img-4.jpg'
 import Image from 'next/image';
+import { useTranslations } from 'use-intl';
 
 
 const testimonials = [
     {
         id: '01',
         img: Img1,
-        Des: "Заказали услугу шеф-монтажа дренажной системы для нашего загородного дома. Работа выполнена на высшем уровне! Команда  установила быстро, при этом учли все наши пожелания. Рекомендую!",
+        Des: "Des1",
         title: 'Ivan Bitca',
-        sub: "Developer",
+        sub: "sub1",
     },
     {
         id: '02',
         img: Img2,
-        Des: "Очень доволен. Дом преобразился: внешний вид стал современным, а теплоизоляция значительно улучшилась. Спасибо за внимательное отношение к деталям и аккуратную работу!",
+        Des: "Des2",
         title: 'Evgenii Sirbu',
-        sub: "Rieltor",
+        sub: "sub2",
     },
     {
         id: '03',
         img: Img3,
-        Des: "Обращались по поводу утепления пенополиуретаном. В доме сразу стало заметно теплее, а счета за отопление уменьшились. Процесс прошёл быстро и без лишнего мусора. У ребят современное оборудование, всё сделали чётко. Буду рекомендовать!",
+        Des: "Des3",
         title: 'Martin Burlacu',
-        sub: "Biznesman",
+        sub: "sub3",
     },
     {
         id: '04',
         img: Img4,
-        Des: "Заказывали фасадный декор для загородного дома. Работу выполнили с идеальной точностью! Дом теперь выглядит как настоящее произведение искусства. Спасибо за качественный результат и быструю установку.",
+        Des: "Des4",
         title: 'Dmitrii Sologub',
-        sub: "Managin dirctor",
+        sub: "sub4",
     },
 
 ]
@@ -78,6 +79,7 @@ const Testimonial2 = (props) => {
         ]
     };
 
+    const t = useTranslations("testimonials")
 
     return (
 
@@ -86,8 +88,7 @@ const Testimonial2 = (props) => {
                 <div className="row justify-content-center">
                     <div className="col-lg-8 col-12">
                         <div className="wpo-section-title-s2">
-                            <h2>testimonial</h2>
-                            <h3>What Our Clients Say's</h3>
+                            <h3>{t("subtitle")}</h3>
                         </div>
                     </div>
                 </div>
@@ -96,7 +97,7 @@ const Testimonial2 = (props) => {
                         {testimonials.map((testitem, titem) => (
                             <div className="testimonial-card" key={titem}>
                                 <div className="content">
-                                    <p>{testitem.Des}</p>
+                                    <p>{t(`${testitem.Des}`)}</p>
                                 </div>
                                 <div className="client">
                                     <div className="client-img">
@@ -104,7 +105,7 @@ const Testimonial2 = (props) => {
                                     </div>
                                     <div className="client-text">
                                         <h4>{testitem.title}</h4>
-                                        <span>{testitem.sub}</span>
+                                        <span>{t(`${testitem.sub}`)}</span>
                                     </div>
                                 </div>
                             </div>

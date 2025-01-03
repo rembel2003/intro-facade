@@ -10,10 +10,42 @@ import BlogSingle from '../../components/BlogDetails/BlogSingle.js'
 import Footer from '../../components/footer/Footer';
 import Logo from '/public/images/logo-3.png'
 
+export async function getStaticProps({ params, locale }) {
+    const blog = blogs.find((item) => item.slug === params.slug);
+
+    if (!blog) {
+        return {
+            notFound: true,
+        };
+    }
+
+    return {
+        props: {
+            blog,
+            messages: (await import(`../../messages/${locale}.json`)).default,
+        },
+    };
+}
+
+export async function getStaticPaths() {
+    const paths = blogs.map((blog) => ({
+        params: { slug: blog.slug },
+    }));
+
+    return {
+        paths,
+        fallback: true, // true или 'blocking' позволяет обрабатывать несуществующие пути
+    };
+}
 
 const BlogDetails =() => {
 
-    const router = useRouter()
+    const router = useRouter();
+
+    // Если fallback = true, нужно обрабатывать состояния загрузки
+    if (router.isFallback) {
+        return <div>Loading...</div>;
+    }
 
     const BlogDetails = blogs.find(item => item.slug === router.query.slug)
 
@@ -21,7 +53,7 @@ const BlogDetails =() => {
         <Fragment>
             <HeaderTopbar />
             <Navbar hclass={'wpo-site-header wpo-site-header-s3'} Logo={Logo} />
-            <PageTitle pageTitle={BlogDetails?.title} pagesub={'Blog'}/> 
+            <PageTitle pageTitle={"promotions"} pagesub={'Blog'}/> 
              <BlogSingle/>
              <Footer/>
             <Scrollbar/>

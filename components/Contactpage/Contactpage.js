@@ -1,9 +1,10 @@
 import React from 'react';
 import ContactForm from '../ContactFrom/ContactForm'
+import { useTranslations } from 'use-intl';
 
 
 const Contactpage = () => {
-
+    const t = useTranslations("Contact")
     return(
         <section className="wpo-contact-pg-section section-padding">
             <div className="container">
@@ -19,7 +20,7 @@ const Contactpage = () => {
                                             </div>
                                         </div>
                                         <div className="office-info-text">
-                                            <h2>Address</h2>
+                                            <h2>{t("address")}</h2>
                                             <p>Chișinău Calea Orheiului, nr. 125/1</p>
                                         </div>
                                     </div>
@@ -32,7 +33,7 @@ const Contactpage = () => {
                                             </div>
                                         </div>
                                         <div className="office-info-text">
-                                            <h2>Email Us</h2>
+                                            <h2>{t("email")}</h2>
                                             <p>IntroFacade@gmail.com</p>
                                         </div>
                                     </div>
@@ -45,7 +46,7 @@ const Contactpage = () => {
                                             </div>
                                         </div>
                                         <div className="office-info-text">
-                                            <h2>Call Now</h2>
+                                            <h2>{t("telephon")}</h2>
                                             <p>+373 792 99 777</p>
                                         </div>
                                     </div>
@@ -53,9 +54,8 @@ const Contactpage = () => {
                             </div>
                         </div>
                         <div className="wpo-contact-title">
-                            <h2>Have Any Question?</h2>
-                            <p>It is a long established fact that a reader will be distracted
-                                content of a page when looking.</p>
+                            <h2>{t("question")}</h2>
+                            <p>{t("answer")}</p>
                         </div>
                         <div className="wpo-contact-form-area">
                             <ContactForm/>

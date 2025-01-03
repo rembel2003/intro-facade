@@ -93,7 +93,61 @@
     "icon4": "Resistant to mechanical damage",
     "icon5": "High-quality production",
     "icon6": "Fast delivery",
-    "about": "Learn more about facade panels"
-}
+    "about": "Learn more about facade panels",
+    "contact_me":"Contact Me",
+    "placeholder_name":"Your Name",
+    "placeholder_email":"Your Email",
+    "placeholder_message":"Message",
+    "submit_now":"Submit Now"
+},
+"shop":{
+    "title1": "Foam Products",
+    "title2": "Foam Packaging",
+    "title3": "Polyfacade",
+    "title4": "Foam Facade Decor",
+    "title5": "Underlay for Water Heated Floor",
+    "title6": "Pipe Insulation with Polystyrene"
+},
+"montaj":{
+    "title": "Installation",
+    "subtitle": "Installation by",
+    "description": "The Intro Facade team performs supervision of the drainage system installation, facade panel installation, polyfacade, facade decor, polyurethane foam insulation, and polyurea waterproofing."
+  },
+"testimonials": {
+    "subtitle":"What Our Clients Say's",
+    "Des1": "We ordered the supervision of the drainage system installation for our country house. The work was done at the highest level! The team installed it quickly, taking all our wishes into account. Highly recommend!",
+    "sub1": "Developer",
+    "Des2": "Very satisfied. The house has transformed: the appearance became modern, and the thermal insulation improved significantly. Thank you for paying attention to details and for the neat work!",
+    "sub2": "Realtor",
+    "Des3": "We contacted them regarding polyurethane foam insulation. The house immediately became noticeably warmer, and heating bills decreased. The process was quick and clean. They use modern equipment and did everything perfectly. Will recommend!",
+    "sub3": "Businessman",
+    "Des4": "We ordered facade decor for our country house. The work was done with perfect precision! The house now looks like a real masterpiece. Thank you for the quality result and quick installation.",
+    "sub4": "Managing Director"
+  },
+  "promotions": {
+    "related":"Related Posts",
+    "title1": "Sets of Facade Decorations with a 5% Discount",
+    "subtitle1": "Duration: Unlimited",
+    "link1": "Read More",
+    "description1": "Order a set of facade decorations from our catalog and get a 5% discount on the entire order.",
+    "title2": "Refer a Friend and Get a 3% Discount",
+    "subtitle2": "Duration: Unlimited",
+    "description2": "Place separate orders together with a friend, relative, or neighbor and get a 3% discount on your order. It is not necessary to order the same product.",
+    "title3": "Warehouse Clearance Sale",
+    "subtitle3": "Duration: Unlimited",
+    "description3": "We are selling all remaining stock."
+  },
+  "Contact":{
+    "address":"Address",
+    "email":"Email Us",
+    "telephon":"Call Now",
+    "question":"Have Any Question?",
+    "answer":"We are always looking forward to your message.",
+    "name":"Your Name",
+    "email_placeholder":"Your Email",
+    "phone":"Your phone",
+    "message":"Message",
+    "submit":"Submit Now"
+  }
 
   }

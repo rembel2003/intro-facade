@@ -8,6 +8,7 @@ import Logo from '/public/images/logo-3.png'
 import Hero3 from '../../components/hero3/hero3';
 import About from '../../components/about3/about3';
 import Contact from '../team-single/contact';
+import { useTranslations } from 'use-intl';
 
 export async function getStaticProps(context) {
   return {
@@ -25,6 +26,8 @@ export async function getStaticProps(context) {
 
 const ServicePage2 = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    const t = useTranslations("products_facade_finish")
 
   useEffect(() => {
     const handleResize = () => {
@@ -52,7 +55,7 @@ const ServicePage2 = () => {
             <About hclass={'wpo-about-section-s3 section-padding'}/>
             <div className="wpo-contact-area ex-wiget" 
             style={containerStyle}>
-                                        <h2>Contact Me</h2>
+                                        <h2>{t("contact_me")}</h2>
                                         <div className="quote-form">
                                             <Contact />
                                         </div>

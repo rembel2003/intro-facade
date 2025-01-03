@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import SimpleReactValidator from 'simple-react-validator';
+import { useTranslations } from 'use-intl';
 
 
 const ContactForm = () => {
@@ -39,6 +40,8 @@ const ContactForm = () => {
         }
     };
 
+    const t = useTranslations("Contact")
+
     return (
         <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active" >
             <div className="row">
@@ -50,7 +53,7 @@ const ContactForm = () => {
                             name="name"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Your Name" />
+                            placeholder={t("name")} />
                         {validator.message('name', forms.name, 'required|alpha_space')}
                     </div>
                 </div>
@@ -62,7 +65,7 @@ const ContactForm = () => {
                             name="email"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Your Email" />
+                            placeholder={t("email_placeholder")} />
                         {validator.message('email', forms.email, 'required|email')}
                     </div>
                 </div>
@@ -74,24 +77,8 @@ const ContactForm = () => {
                             name="phone"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Your phone" />
+                            placeholder={t("phone")} />
                         {validator.message('phone', forms.phone, 'required|phone')}
-                    </div>
-                </div>
-                <div className="col col-lg-6 col-12">
-                    <div className="form-field">
-                        <select
-                            onBlur={(e) => changeHandler(e)}
-                            onChange={(e) => changeHandler(e)}
-                            value={forms.subject}
-                            type="text"
-                            name="subject">
-                            <option>Services</option>
-                            <option>Mechanical Engineering</option>
-                            <option>Petroleum Refinery</option>
-                            <option>Power &amp; Energy</option>
-                        </select>
-                        {validator.message('subject', forms.subject, 'required')}
                     </div>
                 </div>
                 <div className="col col-lg-12 col-12">
@@ -101,13 +88,13 @@ const ContactForm = () => {
                         value={forms.message}
                         type="text"
                         name="message"
-                        placeholder="Message">
+                        placeholder={t("message")}>
                     </textarea>
                     {validator.message('message', forms.message, 'required')}
                 </div>
             </div>
             <div className="submit-area">
-                <button type="submit" className="theme-btn">Submit Now</button>
+                <button type="submit" className="theme-btn">{t("submit")}</button>
             </div>
         </form >
     )

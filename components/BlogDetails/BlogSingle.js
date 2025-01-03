@@ -10,6 +10,7 @@ import blogs from '../../api/blogs';
 import { useRouter } from 'next/router'
 import BlogSidebar from '../BlogSidebar/BlogSidebar.js'
 import Image from 'next/image.js';
+import { useTranslations } from 'use-intl';
 
 
 const BlogSingle = (props) => {
@@ -21,6 +22,8 @@ const BlogSingle = (props) => {
     const submitHandler = (e) => {
         e.preventDefault()
     }
+
+    const t = useTranslations("promotions")
 
     return (
         <section className="wpo-blog-single-section section-padding">
@@ -38,10 +41,10 @@ const BlogSingle = (props) => {
                                         <li><i className="fi flaticon-calendar"></i> {BlogDetails?.create_at}</li>
                                     </ul>
                                 </div>
-                                <h2>{BlogDetails?.title2}</h2>
+                                <h2>{t(`${BlogDetails?.title2}`)}</h2>
                                 
                                 <blockquote>
-                                   {BlogDetails.description}
+                                   {t(`${BlogDetails.description}`)}
                                 </blockquote>
 
                             </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link'
 import BlogSidebar from '../BlogSidebar/BlogSidebar.js'
-import VideoModal from '../ModalVideo/VideoModal'
 import blogs from '../../api/blogs'
 import Image from 'next/image.js';
+import { useTranslations } from 'use-intl';
 
 
 const ClickHandler = () => {
@@ -11,6 +11,7 @@ const ClickHandler = () => {
 }
 
 const BlogList = (props) => {
+    const t = useTranslations("promotions")
     return (
         <section className="wpo-blog-pg-section section-padding">
             <div className="container">
@@ -28,8 +29,8 @@ const BlogList = (props) => {
                                         </ul>
                                     </div>
                                     <div className="entry-details">
-                                        <h3><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${blog.slug}`}>{blog.title2}</Link></h3>
-                                        <Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${blog.slug}`} className="read-more">READ MORE...</Link>
+                                        <h3><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${blog.slug}`}>{t(`${blog.title2}`)}</Link></h3>
+                                        <Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${blog.slug}`} className="read-more">{t(`${blog.link}`)}</Link>
                                     </div>
                                 </div>
                             ))}

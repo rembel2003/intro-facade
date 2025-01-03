@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import SimpleReactValidator from 'simple-react-validator';
+import { useTranslations } from 'use-intl';
 
 
 const Contact = () => {
@@ -22,6 +23,7 @@ const Contact = () => {
             validator.showMessages();
         }
     };
+    const t = useTranslations("products_facade_finish")
 
     const submitHandler = e => {
         e.preventDefault();
@@ -51,7 +53,7 @@ const Contact = () => {
                             name="name"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Your Name" />
+                            placeholder={t("placeholder_name")} />
                     </div>
                     {validator.message('name', forms.name, 'required|alpha_space')}
                 </div>
@@ -64,7 +66,7 @@ const Contact = () => {
                             name="email"
                             onBlur={(e) => changeHandler(e)}
                             onChange={(e) => changeHandler(e)}
-                            placeholder="Your Email" />
+                            placeholder={t("placeholder_email")} />
                         {validator.message('email', forms.email, 'required|email')}
                     </div>
                 </div>
@@ -76,13 +78,13 @@ const Contact = () => {
                         value={forms.message}
                         type="text"
                         name="message"
-                        placeholder="Message">
+                        placeholder={t("placeholder_message")}>
                     </textarea>
                     {validator.message('message', forms.message, 'required')}
                 </div>
             </div>
             <div className="submit-area">
-                <button type="submit" className="theme-btn"> Submit Now</button>
+                <button type="submit" className="theme-btn">{t("submit_now")}</button>
             </div>
         </form>
     )
